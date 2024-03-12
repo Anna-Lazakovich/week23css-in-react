@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding: 5%;
+}
+
+.tariff {
+  max-width: 190px;
+  padding: 5px;
+  background-color: rgb(229, 229, 229);
+}
+
+.tariff:hover {
+  transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.blue {
+  background-color: rgb(114, 218, 231);
+}
+
+.green {
+  background-color: rgb(78, 203, 161);
+}
+
+.red {
+  background-color: rgb(237, 104, 81);
+}
+
+.black {
+  background-color: rgb(40, 40, 40);
+}
+
+.price {
+  color: aliceblue;
+  opacity: 0.88;
+  margin: 0.5px;
+  padding: 15% 5%;
+}
+
+.title {
+  color: aliceblue;
+  margin: 0.5px;
+  padding: 5% 0 0;
+  align-items: center;
+  font-size: large;
+  min-height: 40px;
+}
+
+.price-number {
+  font-size: 2.5rem;
+}
+
+.speed {
+  padding: 5%;
+  background-color: rgb(229, 229, 229);
+}
+
+.description {
+  padding: 5%;
+  background-color: rgb(189, 189, 189);
+}
