@@ -1,4 +1,4 @@
-import Tariffs from './components/Tariff/Tariffs';
+import Tariffs from './components/Tariff/tarrifs/Tariffs';
 import './App.css';
 
 function App() {
